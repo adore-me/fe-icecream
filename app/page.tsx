@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className='text-4xl font-extrabold text-center text-sky-600 mb-6'>
         Create your very own ice cream cone!
       </h1>
-      <div className='flex'>
+      <div className='flex p-10'>
         <IceCreamProvider>
           <div className='w-1/3'>
             <Flavors />
