@@ -37,14 +37,10 @@ export const Cone = () => {
       <button
         type='submit'
         onClick={generateIcecream}
-        className='relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out border-2 border-blue-500 rounded-full shadow-md group'>
-        <span className='absolute inset-0 flex items-center justify-center w-full h-full text-blue-500 duration-300 -translate-x-full bg-white group-hover:translate-x-0 ease'>
+        className='w-full mt-4 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium border-2 border-blue-500 rounded-full shadow-md group'>
+        <span className='flex items-center justify-center w-full h-full text-blue-500'>
           {submitText}
         </span>
-        <span className='absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease'>
-          {submitText}
-        </span>
-        <span className='relative invisible'>{submitText}</span>
       </button>
 
       {/* eslint-disable-next-line @next/next/no-img-element */}
